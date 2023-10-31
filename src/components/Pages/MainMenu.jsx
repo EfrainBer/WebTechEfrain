@@ -10,34 +10,13 @@ const MainMenu = () => (
             <div className="foto">
                 <img src={Imagen} className="" alt="webTech" />
                 <div className="text">
-                    <p className="">WebTech if Efrain</p>
+                    <p className="">WebTech of Efrain</p>
                     <p className="little-text"></p>
                 </div>
-                
             </div>
             
         </ul>
         <div className="contentMain">
-            <div className="Ficha Tecnica">
-                <h1 className='nameF'>Technical data</h1>
-                <div className="contentF">
-                    <div>
-                        <img src={''} className="Poster" alt="" />
-                    </div>
-                    <div>
-                        <ul className='listaF'>
-                            <li><b>Original title:</b> Plunderer</li>
-                            <li><b>Year:</b> 2020</li>
-                            <li><b>Original Premiere:</b> 09 de Enero de 2020</li>
-                            <li><b>Genre:</b> Acción, Fantasia</li>
-                            <li><b>Duration:</b> 24m</li>
-                            <li><b>Network:</b> Tokyo MX</li>
-                            <li><b>Company:</b> GEEK TOYS, Funimation Global Group, Kadokawa, Nippon Columbia </li>
-                        </ul>
-                    </div>
-                
-                </div>
-            </div>
             <div className="Synopsis">
                 <h1 className='nameH'>Synopsis</h1>
                 <div className="contentH">
@@ -49,17 +28,13 @@ const MainMenu = () => (
                     <img src={''} className="CounterH" alt="" />
                 </div>
             </div>
-
             <div className="Trailer">
-                <h1 className='nameH'>Trailer of the series</h1>
+                <h1 className='nameH'>Portafolio BG Inversiones</h1>
                 <div className="contentV">
-                    <iframe className="TrailerVid" src="https://www.youtube.com/embed/tu7A8iEZshs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe className='TrailerVid' width="560" height="315" src="https://www.youtube.com/embed/YiO_mGhuORI?si=VHnKCN1hjXZFiuib" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
                 </div>
-                <br/>
-                <br/>
             </div>
         </div>
-
     </div>
     
 )

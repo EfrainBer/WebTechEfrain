@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from '../Organisms/Header';
 import MainMenu from '../Pages/MainMenu';
 import Contacto from '../Molecules/Contacto';
-import Moments from '../Pages/Moments';
-import PersonajesApi from '../Molecules/PersonajesApi';
+import Tech from './Tech';
 
 
 const App = () => (
@@ -13,7 +12,6 @@ const App = () => (
     <Switch>
         <Route path="/" exact component={MainMenu}/>
         <Route path="/Contacto" exact component={ Contacto }/>
-        <Route path="/Moments" exact component={Moments}/>
     </Switch>
   </Router>
 )

@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import App from './components/Routes/App.js';
-import Personajes from './components/Routes/Personajes';
+import Tech from './components/Routes/Tech';
 import Footer from './components/Organisms/Footer_A';
 import './assets/css/index_css.css';
-import PersonajesAPI from './components/Routes/PersonajesAPI';
+import TechApi from './components/Routes/TechApi';
 
 
 ReactDOM.render(
@@ -17,14 +17,14 @@ ReactDOM.render(
 
 ReactDOM.render(
   <React.StrictMode>
-    <Personajes/>
+    <Tech/>
   </React.StrictMode>,
   document.getElementById('Element')
 );
 
 ReactDOM.render(
   <React.StrictMode>
-    <PersonajesAPI/>
+    <TechApi/>
   </React.StrictMode>,
   document.getElementById('ElementAPI')
 );

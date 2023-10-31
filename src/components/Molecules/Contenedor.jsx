@@ -1,5 +1,5 @@
 import React from 'react';
-import Personajes from '../Pages/Personajes';
+import Personajes from '../Pages/Tech';
 import Imagenes from './Imagenes';
 
 const Personaje = [
