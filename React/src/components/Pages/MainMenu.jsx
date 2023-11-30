@@ -6,7 +6,7 @@ import Portatiles from '../../assets/img/Portatiles.png';
 import Computadores from '../../assets/img/Computadores.png';
 import Accesorios from '../../assets/img/Accesorios.png';
 import { NavLink } from 'react-router-dom';
-import ShowPortatil from '../Molecules/ShowPortatil';
+import ShowPortatil from '../Molecules/Portatil';
 
 
 const MainMenu = () => (
